@@ -1,15 +1,17 @@
-# Python-Skeleton
+# Python-Hello-World
 
-This is a Python Skeleton directory structure taken from Learn Python the Hard Way by: Zed A. Shaw
+This is a **Demo Python Hello World Package / Module** that simply contains the method **say_hello()** to print out 'Hello World!'
 
-## To start a new project:
+## To implement:
 
-1. Make a copy of skeleton directory and name it after the new project
-2. Rename the NAME module to be the same name of the project
-3. Edit setup.py to contain information for project
-4. Rename tests/NAME_tests.py to be the same as module name
-5. Double check that it's working by running 'nosetests' from root project directory
-6. Start Coding!
+1. Download or Clone the Repo and Extract
+2. Change to project root - top level - (hello_world)
+3. Optionally switch to python virtual environment
+4. Run **pip install hello_world**
+5. Enter python shell: python
+6. **from hello_world import hello_world**
+7. **hello_world.say_hello()**
+8. Result should be 'Hello World!'
 
 ## Recommended Python Packages:
 
@@ -17,3 +19,4 @@ This is a Python Skeleton directory structure taken from Learn Python the Hard W
 3. setuptools
 2. nose
 3. virtualenv
+4. virtualenvwrapper
